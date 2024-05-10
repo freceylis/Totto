@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body { 
+    background: #036;
+    padding: 20px;
+}
+
+
+/*CABECERA*/
+header {
+    max-width: 1000px;
+    min-height: 200px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#a90329+5,8f0222+54,8f0222+54,8c0544+100 */
+background: linear-gradient(to bottom,  #a90329 5%,#8f0222 54%,#8f0222 54%,#8c0544 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+
+#logo {
+    width: 320px;
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: 1s entradalogo 1;
+}
+
+#logo img:hover {
+    filter: grayscale(5);
+}
+
+/*CABECERA*/
+
+
+
+
+
+
+/*MENU HORIZONTAL*/
+#menu-h {
+    max-width: 1000px;
+    min-height: 50px;
+    background: #000;
+    margin: 0 auto;
+}
+
+#menu-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-h a {
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#menu-h a:hover {
+    background: #f1da36;
+}
+
+
+#menu-h ul ul {
+    display: none;
+    position: absolute;
+}
+
+#menu-h ul li:hover ul {
+    display: block;
+}
+
+
+/*MENU HORIZONTAL*/
+
+
+
+#banner {
+    max-width: 1000px;
+    min-height: 250px;
+    background: gray;
+    margin: 0 auto;
+}
+
+#contenedor {
+    max-width: 1000px;
+    min-height: 700px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+
+/*MENU-VERTICAL*/
+#menu-v { 
+    width: 300px;
+    height: 700px;
+    background: #ccc;
+    float: left;
+}    
+
+#menu-v ul{
+    list-style: none;
+    padding: 10px;
+}
+
+#menu-v li {
+    display: block;
+    color: #fff;
+    background: #8c0544;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+#menu-v li:hover {
+    background: rgba(255, 0, 0, 0.274);
+}
+
+#menu-v li:hover img {
+    animation: 1s rotacion 1;
+}
+
+/*MENU-VERTICAL*/
+
+
+
+/*CONTENIDO*/
+#contenido {
+    width: 700px;
+    min-height: 700px;
+    background: #fff;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#contenido h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contenido p {
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.img-izq {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+}
+
+/*CONTENIDO*/
+
+
+
+
+/*PIE DE PAGINA*/
+footer {
+    max-width: 1000px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+
+/*PIE DE PAGINA*/
+
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo {
+    0% {
+        transform: translateY(-200px);
+    }  
+}
+
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(270deg);
+    }
+}
